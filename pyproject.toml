@@ -9,8 +9,9 @@ packages = [{include = "jlcpcb_basic_parts"}]
 [tool.poetry.dependencies]
 python = ">=3.10,<4"
 jupyter = "*"
-jlcparts = {git = "https://github.com/yaqwsx/jlcparts.git"}
-
+rich = "^13.8.0"
+pandas = "*"
+zstandard = "*"
 
 [build-system]
 requires = ["poetry-core"]
