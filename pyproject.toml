@@ -12,6 +12,7 @@ jupyter = "*"
 rich = "^13.8.0"
 pandas = "*"
 zstandard = "*"
+tabulate = "*"
 
 [build-system]
 requires = ["poetry-core"]
